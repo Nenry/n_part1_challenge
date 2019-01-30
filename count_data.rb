@@ -8,7 +8,10 @@ require_relative 'print_by_count'
 # where m is site name length
 # where n is the number of dates 
 # where k is the number of unique site names for the day
-# In the given problem, there are conditionals where it states 
+# In the given problem, there are conditionals where it states
+# count values and number of days are much smalle than the number of unique URLs.
+# It's possible to omit some of these variables, but I left them since we do not have
+# a hard value to consider them constant
 def start(file_name)
   puts ""
   puts "Hey! Let's count how many hits these websites got."
