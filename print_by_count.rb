@@ -1,6 +1,8 @@
-#Time Complexity: O(n*klogk)
+# Time Complexity: O(n*klogk)
 # where n is is the number of dates
 # where k is the number of unique site names for that day
+
+#Space complexity is O(n)
 def print_by_count(organized_data)
 
   organized_dates_only = organized_data.keys.sort

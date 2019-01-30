@@ -2,7 +2,8 @@ require_relative 'parse_by_date'
 require_relative 'print_by_count'
 
 
-#Time Complexity: O(l*m + n*klogk) 
+# Overall Time Complexity: O(l*m + n*klogk) 
+# Overall Space Complexity: O(n + k)
 # where l is number of lines in txt file,
 # where m is site name length
 # where n is the number of dates 

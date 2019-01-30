@@ -1,6 +1,13 @@
-# Time Complexity is: O(l*m) 
+# Time Complexity: O(l*m) 
 # where l is the number of lines
 # where m is site name length
+
+#Space Complexity: O(n + k), where n is dates, k is unique site names for that day
+
+# Data Shape Example: 
+# {08/08/2014 GMT: {www.facebook.com: 2, www.google.com: 2},
+#  08/09/2014 GMT: {www.nba.com: 3, sports.yahoo.com: 2}}
+
 def parse_by_date(file_name)
   organized_by_date_hash = Hash.new { |h, k| h[k] = {} }
   
